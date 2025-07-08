@@ -1,0 +1,18 @@
+VSPI NRF24L01:
+GND  -> GND
+VCC  -> 3.3V
+CE   -> GPIO5
+CSN  -> GPIO15
+SCK  -> GPIO18
+MISO -> GPIO19
+MOSI -> GPIO23
+
+HSPI NRF24L01:
+GND  -> GND
+VCC  -> 3.3V
+CE   -> GPIO27
+CSN  -> GPIO14
+SCK  -> GPIO25
+MISO -> GPIO12
+MOSI -> GPIO13
+IRQ  -> Not connected (or GPIO for monitoring)
